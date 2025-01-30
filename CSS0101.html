@@ -1,14 +1,45 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Etiam condimentum blandit sapien non volutpat. Vivamus 
-posuere massa euismod libero varius et mollis velit 
-aliquam. Donec ultrices placerat consequat. Phasellus 
-sit amet est non lorem vestibulum placerat iaculis 
-vitae justo. Lorem ipsum dolor sit amet, consectetur 
-adipiscing elit. Vivamus bibendum feugiat eleifend. 
-Duis tincidunt tempus eros, ac laoreet magna suscipit 
-eu. Praesent quis facilisis lacus. Quisque imperdiet 
-egestas lectus dapibus iaculis. Morbi egestas nulla 
-eu magna sagittis vitae eleifend lacus sodales. 
-Nullam vel nunc nisl. Vestibulum eget sapien eros. 
-Donec ac pellentesque odio. In hac habitasse platea 
-dictumst.
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS0101 Formázás</title>
+    <style>
+        p {
+            text-indent: 32px; /* Bekezdés első sorának behúzása */
+        }
+        .small-caps {
+            font-variant: small-caps;
+        }
+        .underlined {
+            text-decoration: underline;
+        }
+        .large-text {
+            font-size: 20px;
+        }
+        .purple-text {
+            color: #800080;
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+        .cursive-first-letter::first-letter {
+            font-family: cursive;
+        }
+        .shadowed-text {
+            text-shadow: 2px 2px 4px gray;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span class="small-caps">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br>
+        <span class="underlined">Etiam condimentum blandit sapien non volutpat.</span><br>
+        <span class="large-text">Vivamus posuere massa euismod libero varius et mollis velit aliquam.</span><br>
+        <span class="purple-text">Donec ultrices placerat consequat.</span><br>
+        <span class="bold-text">Phasellus sit amet est non lorem vestibulum placerat iaculis vitae justo.</span><br>
+        <span class="cursive-first-letter">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br>
+        <span class="shadowed-text">Vivamus bibendum feugiat eleifend.</span>
+    </p>
+</body>
+</html>
