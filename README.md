@@ -1,4 +1,8 @@
 # CSS101
+* A feladatsor Sallai András munkája alapján készült 
+* Licenc: CC BY-SA 4.0
+* https://szit.hu/doku.php?id=oktatas:web:feladatok:css
+ 
 1. Az első mondat legyen kiskapitális.
 2. A második mondat legyen aláhúzott.
 3. A harmadik mondat betűi legyenek 20 pixel nagyságúak.
