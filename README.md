@@ -11,3 +11,4 @@
 6. A hatodik mondat első betűje legyen cursive fontcsaláddal megadva.
 7. Az utolsó mondat betűi legyenek árnyékoltak.
 8. A bekezdés első sora legyen 32 pixeles behúzással.
+-------------------------------------------------------------
